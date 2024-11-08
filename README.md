@@ -1,2 +1,0 @@
-# Detector-OpenCV
-# Detector-OpenCV
