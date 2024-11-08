@@ -3,7 +3,6 @@ from datetime import datetime
 
 df = pandas.DataFrame(columns=["Start", "End"])
 
-# Cargar el clasificador de rostros y el clasificador de ojos
 face_cascade = cv2.CascadeClassifier('face_cascade/haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('eyes_cascade/haarcascade_eye.xml')
 
